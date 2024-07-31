@@ -1,0 +1,36 @@
+.loadout-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.loadout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loadout-name {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.loadout-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.loadout-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 16px;
+}
+
+.loadout-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+}
