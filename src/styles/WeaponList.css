@@ -1,0 +1,39 @@
+
+
+.weapon-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #c19a6b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.weapon-select {
+    display: flex;
+    justify-content: center;
+}
+
+.weapon-select select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.weapon-select select:focus {
+    border-color: #c19a6b; /* Elden Ring gold color */
+    outline: none;
+}
+
+.weapon-select option {
+    padding: 10px;
+}

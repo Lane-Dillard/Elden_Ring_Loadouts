@@ -17,7 +17,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">MyApp</Link>
+        <Link to="/">Elden Ring Loadouts</Link>
       </div>
       <ul className="navbar-links">
         <li>

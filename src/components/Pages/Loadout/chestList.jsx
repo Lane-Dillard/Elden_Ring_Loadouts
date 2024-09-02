@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { getAllChests } from "../../../services/letsGetThisService"
-
+import '/root/workspace/Elden_Ring_Loadouts/src/styles/chest.css'
 
 export const ChestList = ({ onSelectChest }) => {
     const [allChests, setAllChests] = useState([])
@@ -20,15 +20,17 @@ export const ChestList = ({ onSelectChest }) => {
     }
 
     return (
-        <div>
-            <select value={selectedChest} onChange={handleChange}>
-                <option value="">Select a chest</option>
-                {allChests.map((chest, index) => (
-                    <option key={index} value={chest.id}>
-                        {chest.name}
-                    </option>
-                ))}
-            </select>
+        <div className="chest-list-container">
+            <div className="chest-select">
+                <select value={selectedChest} onChange={handleChange}>
+                    <option value="">Select a chest</option>
+                    {allChests.map((chest, index) => (
+                        <option key={index} value={chest.id}>
+                            {chest.name}
+                        </option>
+                    ))}
+                </select>
+            </div>
         </div>
     )
 }

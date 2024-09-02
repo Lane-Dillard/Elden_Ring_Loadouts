@@ -6,10 +6,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 5px solid #c19a6b;
   }
   
   .navbar-logo a {
-    color: white;
+    color: #c19a6b;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -26,12 +27,13 @@
   }
   
   .navbar-links a {
-    color: white;
     text-decoration: none;
     font-size: 1rem;
+    color:#c19a6b
   }
   
   .navbar-links a:hover {
+    color: white;
     text-decoration: underline;
   }
   

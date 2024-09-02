@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { getAllHelms } from "../../../services/letsGetThisService"
-
+import '/root/workspace/Elden_Ring_Loadouts/src/styles/helm.css'
 
 export const HelmList = ({ onSelectHelm }) => {
     const [allHelms, setAllHelms] = useState([]);
@@ -20,15 +20,17 @@ export const HelmList = ({ onSelectHelm }) => {
     }
 
     return (
-        <div>
-            <select value={selectedHelm} onChange={handleChange}>
-                <option value="">Select a helm</option>
-                {allHelms.map((helmet) => (
-                    <option key={helmet.id} value={helmet.id}>
-                        {helmet.name}
-                    </option>
-                ))}
-            </select>
+        <div className="helm-list-container">
+            <div className="helm-select">
+                <select value={selectedHelm} onChange={handleChange}>
+                    <option value="">Select a helm</option>
+                    {allHelms.map((helmet) => (
+                        <option key={helmet.id} value={helmet.id}>
+                            {helmet.name}
+                        </option>
+                    ))}
+                </select>
+            </div>
         </div>
     );
 };

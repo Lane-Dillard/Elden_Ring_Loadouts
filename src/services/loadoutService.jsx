@@ -14,15 +14,17 @@ export const getUserLoadoutsWithDetails = (userId) => {
                     fetch(`http://localhost:8088/eldenHelmets/${loadout.helmetId}`).then(res => res.json()),
                     fetch(`http://localhost:8088/eldenChest/${loadout.chestId}`).then(res => res.json()),
                     fetch(`http://localhost:8088/eldenGauntlets/${loadout.gauntletsId}`).then(res => res.json()),
-                    fetch(`http://localhost:8088/eldenGreaves/${loadout.greavesId}`).then(res => res.json())
-                ]).then(([weapon1, weapon2, helmet, chest, gauntlets, greaves]) => ({
+                    fetch(`http://localhost:8088/eldenGreaves/${loadout.greavesId}`).then(res => res.json()),
+                    fetch(`http://localhost:8088/Talisman/${loadout.talismanId}`).then(res => res.json())
+                ]).then(([weapon1, weapon2, helmet, chest, gauntlets, greaves, talisman]) => ({
                     ...loadout,
                     weapon1,
                     weapon2,
                     helmet,
                     chest,
                     gauntlets,
-                    greaves
+                    greaves,
+                    talisman
                 }));
             });
             return Promise.all(loadoutPromises);
@@ -41,10 +43,12 @@ export const getUserLoadoutsWithDetails = (userId) => {
 
 
 
-export const deleteLoadout = (loadoutId) => {
-    return fetch(`http://localhost:8088/eldenLoadouts/${loadoutId}`, {
+export const deleteLoadout = async (loadoutId) => {
+    const response = await fetch(`http://localhost:8088/eldenLoadouts/${loadoutId}`, {
         method: 'DELETE',
     }).then((res) => res.json());
+
+    return response
 };
 
 export const updateLoadout = (loadoutId, updatedData) => {
@@ -59,10 +63,56 @@ export const updateLoadout = (loadoutId, updatedData) => {
 
 export const getLoadoutById = (id) => {
     return fetch(`http://localhost:8088/eldenLoadouts/${id}`)
-        .then(response => response.json()) // Parse JSON here
+        .then(response => response.json())
         .then(data => {
-            // Debugging log
             console.log('Fetched loadout:', data);
             return data;
         });
+};
+
+export const getAllTalisman = () => {
+    return fetch(`http://localhost:8088/Talisman`).then((res) => res.json());
+}
+
+export const getLoadoutDetails = (loadoutId) => {
+    return fetch(`http://localhost:8088/eldenLoadouts/${loadoutId}`)
+        .then(res => res.json())
+        .then(loadout => {
+            return Promise.all([
+                fetch(`http://localhost:8088/eldenWeapons/${loadout.weapon1Id}`).then(res => res.json()),
+                fetch(`http://localhost:8088/eldenWeapons/${loadout.weapon2Id}`).then(res => res.json()),
+                fetch(`http://localhost:8088/eldenHelmets/${loadout.helmetId}`).then(res => res.json()),
+                fetch(`http://localhost:8088/eldenChest/${loadout.chestId}`).then(res => res.json()),
+                fetch(`http://localhost:8088/eldenGauntlets/${loadout.gauntletsId}`).then(res => res.json()),
+                fetch(`http://localhost:8088/eldenGreaves/${loadout.greavesId}`).then(res => res.json()),
+                fetch(`http://localhost:8088/Talisman/${loadout.talismanId}`).then(res => res.json())
+            ]).then(([weapon1, weapon2, helmet, chest, gauntlets, greaves, talisman]) => ({
+                ...loadout,
+                weapon1,
+                weapon2,
+                helmet,
+                chest,
+                gauntlets,
+                greaves,
+                talisman
+            }));
+        });
+};
+
+export const getItems = () => {
+    return Promise.all([
+        fetch('http://localhost:8088/eldenWeapons').then(res => res.json()),
+        fetch('http://localhost:8088/eldenHelmets').then(res => res.json()),
+        fetch('http://localhost:8088/eldenChest').then(res => res.json()),
+        fetch('http://localhost:8088/eldenGauntlets').then(res => res.json()),
+        fetch('http://localhost:8088/eldenGreaves').then(res => res.json()),
+        fetch('http://localhost:8088/Talisman').then(res => res.json())
+    ]).then(([weapons, helmets, chest, gauntlets, greaves, talismans]) => ({
+        weapons,
+        helmets,
+        chest,
+        gauntlets,
+        greaves,
+        talismans
+    }));
 };
