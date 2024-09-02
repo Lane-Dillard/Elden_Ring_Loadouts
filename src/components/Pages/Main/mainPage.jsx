@@ -1,7 +1,6 @@
-// HomePage.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import './HomePage.css';
+import '/root/workspace/Elden_Ring_Loadouts/src/styles/MainPage.css'
 
 const MainPage = () => {
   return (

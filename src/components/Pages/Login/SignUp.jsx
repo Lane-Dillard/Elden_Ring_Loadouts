@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { createUser, getUserByEmailAndPassword } from '../../../services/userService';
-
+import '/root/workspace/Elden_Ring_Loadouts/src/styles/SignUp.css'
 
 export const SignUp = () => {
     const [user, setUser] = useState({
       email: "",
       fullName: "",
-      isStaff: false, // Adjust this if you have a different user role system
+      password: "", // Add password field
+      isStaff: false,
     });
     const navigate = useNavigate();
   
@@ -74,20 +75,17 @@ export const SignUp = () => {
           </fieldset>
           <fieldset>
             <div className="form-group">
-              <label>
-                <input
-                  onChange={(evt) => {
-                    const copy = { ...user };
-                    copy.isStaff = evt.target.checked;
-                    setUser(copy);
-                  }}
-                  type="checkbox"
-                  id="isStaff"
-                />
-                I am an employee
-              </label>
+              <input
+                onChange={updateUser}
+                type="password"
+                id="password"
+                className="form-control"
+                placeholder="Enter your password"
+                required
+              />
             </div>
           </fieldset>
+
           <fieldset>
             <div className="form-group">
               <button className="login-btn btn-info" type="submit">
@@ -98,4 +96,4 @@ export const SignUp = () => {
         </form>
       </main>
     );
-  };
+};

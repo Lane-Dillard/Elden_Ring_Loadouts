@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { getUserByEmailAndPassword } from '../../../services/userService'; // Update the function to match your authentication logic
+import '/root/workspace/Elden_Ring_Loadouts/src/styles/logIn.css'
+
 
 export const Login = () => {
   const [email, setEmail] = useState("");
