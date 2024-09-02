@@ -1,0 +1,943 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "Carlson son",
+        "email": "hpassfield7@netvibes.com",
+        "password": "Cool1234"
+      },
+      {
+        "email": "thatsaemail@gmail.com",
+        "fullName": "Odiog",
+        "password": "Karl2468",
+        "isStaff": false,
+        "id": 2
+      }
+    ],
+    "eldenLoadouts": [
+      {
+        "name": "default",
+        "weapon1Id": 1,
+        "weapon2Id": 1,
+        "helmetId": 1,
+        "chestId": 1,
+        "gauntletsId": 1,
+        "greavesId": 1,
+        "userId": 1,
+        "id": 1
+      },
+      {
+        "userId": 1,
+        "name": "Test1",
+        "weapon1Id": 1,
+        "weapon2Id": 3,
+        "helmetId": 1,
+        "chestId": 1,
+        "gauntletsId": 1,
+        "greavesId": 1,
+        "id": 2
+      },
+      {
+        "userId": 1,
+        "name": "Test",
+        "weapon1Id": 1,
+        "weapon2Id": 0,
+        "helmetId": 1,
+        "chestId": 1,
+        "gauntletsId": 1,
+        "greavesId": 1,
+        "id": 3
+      },
+      {
+        "userId": 1,
+        "name": "Testing",
+        "weapon1Id": 1,
+        "weapon2Id": 4,
+        "helmetId": 2,
+        "chestId": 1,
+        "gauntletsId": 1,
+        "greavesId": 2,
+        "id": 4
+      },
+      {
+        "userId": 2,
+        "name": "Samurai",
+        "weapon1Id": 7,
+        "weapon2Id": 11,
+        "helmetId": 3,
+        "chestId": 3,
+        "gauntletsId": 3,
+        "greavesId": 3,
+        "talismanId": 1,
+        "id": 7
+      },
+      {
+        "userId": 2,
+        "name": "Knight",
+        "weapon1Id": 1,
+        "weapon2Id": 2,
+        "helmetId": 4,
+        "chestId": 4,
+        "gauntletsId": 4,
+        "greavesId": 4,
+        "talismanId": 1,
+        "id": 8
+      },
+      {
+        "userId": 2,
+        "name": "Dual wielding Knight",
+        "weapon1Id": 1,
+        "weapon2Id": 23,
+        "helmetId": 4,
+        "chestId": 4,
+        "gauntletsId": 4,
+        "greavesId": 4,
+        "talismanId": 1,
+        "id": 9
+      },
+      {
+        "userId": 2,
+        "name": "It's For Real Vyke",
+        "weapon1Id": 31,
+        "weapon2Id": 30,
+        "helmetId": 5,
+        "chestId": 5,
+        "gauntletsId": 5,
+        "greavesId": 5,
+        "talismanId": 1,
+        "id": 10
+      },
+      {
+        "name": "Ronin",
+        "weapon1Id": 7,
+        "weapon2Id": 11,
+        "helmetId": 7,
+        "chestId": 7,
+        "gauntletsId": 7,
+        "greavesId": 7,
+        "talismanId": 1,
+        "userId": 2,
+        "id": 11
+      },
+      {
+        "name": "This isn't A Cult",
+        "weapon1Id": 29,
+        "weapon2Id": 17,
+        "helmetId": 8,
+        "chestId": 8,
+        "gauntletsId": 8,
+        "greavesId": 8,
+        "talismanId": 6,
+        "userId": 2,
+        "id": 12
+      },
+      {
+        "name": "fjsdkla",
+        "weapon1Id": 11,
+        "helmetId": 5,
+        "chestId": 3,
+        "gauntletsId": 4,
+        "greavesId": 4,
+        "talismanId": 3,
+        "userId": 1,
+        "id": 13
+      },
+      {
+        "name": "FINALLY RIGHT",
+        "weapon1Id": 7,
+        "weapon2Id": 0,
+        "helmetId": 3,
+        "chestId": 3,
+        "gauntletsId": 3,
+        "greavesId": 3,
+        "talismanId": 1,
+        "userId": 1,
+        "id": 14
+      },
+      {
+        "userId": 1,
+        "name": "afsd",
+        "weapon1Id": 9,
+        "weapon2Id": 4,
+        "helmetId": 4,
+        "chestId": 2,
+        "gauntletsId": 7,
+        "greavesId": 3,
+        "talismanId": 3,
+        "id": 15
+      },
+      {
+        "name": "I'm A Defense Attorney",
+        "weapon1Id": 2,
+        "weapon2Id": 2,
+        "helmetId": 8,
+        "chestId": 7,
+        "gauntletsId": 7,
+        "greavesId": 5,
+        "talismanId": 3,
+        "userId": 2,
+        "id": 16
+      },
+      {
+        "name": "That's A Loadout",
+        "weapon1Id": 7,
+        "weapon2Id": 11,
+        "helmetId": 3,
+        "chestId": 3,
+        "gauntletsId": 3,
+        "greavesId": 3,
+        "talismanId": 1,
+        "userId": 2,
+        "id": 17
+      },
+      {
+        "userId": 2,
+        "name": "Wanna Be Maliketh",
+        "weapon1Id": 32,
+        "weapon2Id": 30,
+        "helmetId": 6,
+        "chestId": 6,
+        "gauntletsId": 6,
+        "greavesId": 6,
+        "talismanId": 3,
+        "id": 18
+      },
+      {
+        "name": "Cool",
+        "weapon1Id": 24,
+        "weapon2Id": 23,
+        "helmetId": 4,
+        "chestId": 1,
+        "gauntletsId": 1,
+        "greavesId": 5,
+        "talismanId": 3,
+        "userId": 1,
+        "id": 19
+      },
+      {
+        "name": "Black Knife",
+        "weapon1Id": 20,
+        "weapon2Id": 0,
+        "helmetId": 9,
+        "chestId": 9,
+        "gauntletsId": 9,
+        "greavesId": 9,
+        "talismanId": 5,
+        "userId": 1,
+        "id": 20
+      },
+      {
+        "name": "Bloodhound Knight Starter Class",
+        "weapon1Id": 33,
+        "weapon2Id": 34,
+        "helmetId": 10,
+        "chestId": 10,
+        "gauntletsId": 10,
+        "greavesId": 10,
+        "talismanId": 1,
+        "userId": 1,
+        "id": 21
+      },
+      {
+        "userId": 1,
+        "name": "D",
+        "weapon1Id": 35,
+        "weapon2Id": 36,
+        "helmetId": 11,
+        "chestId": 11,
+        "gauntletsId": 11,
+        "greavesId": 11,
+        "talismanId": 3,
+        "id": 22
+      },
+      {
+        "userId": 1,
+        "name": "Tree Sentinel",
+        "weapon1Id": 37,
+        "weapon2Id": 38,
+        "helmetId": 12,
+        "chestId": 12,
+        "gauntletsId": 12,
+        "greavesId": 12,
+        "talismanId": 3,
+        "id": 23
+      },
+      {
+        "userId": 1,
+        "name": "THE Tarnished",
+        "weapon1Id": 1,
+        "weapon2Id": 34,
+        "helmetId": 13,
+        "chestId": 13,
+        "gauntletsId": 13,
+        "greavesId": 13,
+        "talismanId": 3,
+        "id": 24
+      },
+      {
+        "name": "The Carian Knight Of The Academy",
+        "weapon1Id": 39,
+        "weapon2Id": 40,
+        "helmetId": 14,
+        "chestId": 14,
+        "gauntletsId": 14,
+        "greavesId": 14,
+        "talismanId": 1,
+        "userId": 1,
+        "id": 25
+      },
+      {
+        "userId": 1,
+        "name": "IT''S A THING",
+        "weapon1Id": 1,
+        "weapon2Id": 34,
+        "helmetId": 1,
+        "chestId": 7,
+        "gauntletsId": 13,
+        "greavesId": 5,
+        "talismanId": 8,
+        "id": 26
+      },
+      {
+        "name": "Wondering Knight",
+        "weapon1Id": 6,
+        "weapon2Id": 5,
+        "helmetId": 4,
+        "chestId": 1,
+        "gauntletsId": 7,
+        "greavesId": 7,
+        "talismanId": 5,
+        "userId": 2,
+        "id": 27
+      },
+      {
+        "userId": 2,
+        "name": "Retired",
+        "weapon1Id": 1,
+        "weapon2Id": 19,
+        "helmetId": 2,
+        "chestId": 1,
+        "gauntletsId": 7,
+        "greavesId": 5,
+        "talismanId": 5,
+        "id": 28
+      },
+      {
+        "name": "Half Sword",
+        "weapon1Id": 5,
+        "weapon2Id": 12,
+        "helmetId": 7,
+        "chestId": 5,
+        "gauntletsId": 13,
+        "greavesId": 14,
+        "talismanId": 1,
+        "userId": 2,
+        "id": 29
+      },
+      {
+        "userId": 2,
+        "name": "Pokey",
+        "weapon1Id": 21,
+        "weapon2Id": 5,
+        "helmetId": 2,
+        "chestId": 1,
+        "gauntletsId": 2,
+        "greavesId": 14,
+        "talismanId": 1,
+        "id": 30
+      },
+      {
+        "userId": 2,
+        "name": "dfsa",
+        "weapon1Id": 32,
+        "weapon2Id": 30,
+        "helmetId": 6,
+        "chestId": 9,
+        "gauntletsId": 13,
+        "greavesId": 13,
+        "talismanId": 3,
+        "id": 31
+      },
+      {
+        "userId": 2,
+        "name": "Twin Twin",
+        "weapon1Id": 35,
+        "weapon2Id": 35,
+        "helmetId": 11,
+        "chestId": 11,
+        "gauntletsId": 11,
+        "greavesId": 11,
+        "talismanId": 8,
+        "id": 32
+      }
+    ],
+    "eldenWeapons": [
+      {
+        "id": 0,
+        "name": "Empty",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lords-rune-tools-elden-ring-wiki-guide.png"
+      },
+      {
+        "id": 1,
+        "name": "Longsword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/longsword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 2,
+        "name": "Heater Shield",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/heater_shield_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 3,
+        "name": "Dagger",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dagger_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 4,
+        "name": "Parrying Dagger",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/parrying_dagger_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 5,
+        "name": "Misericorde",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/misericorde_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 6,
+        "name": "Bastard Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bastard_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 7,
+        "name": "Uchigatana",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/uchigatana_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 8,
+        "name": "Great Knife",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/great_knife_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 9,
+        "name": "Blood Stained Dagger",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodstained_dagger_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 10,
+        "name": "Erdsteel Dagger",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/erdsteel_dagger_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 11,
+        "name": "Wakizashi",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/wakizashi_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 12,
+        "name": "Celebrant Sickle",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/celebrants-sickle_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 13,
+        "name": "Ivory Sickle",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ivory_sickle_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 14,
+        "name": "Crystal Knife",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/crystal_knife_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 15,
+        "name": "Scorpion's Stinger",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scorpions_stinger_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 16,
+        "name": "Cinqueda",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/cinquedea_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 17,
+        "name": "Glintstone Kris",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintstone_kris_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 18,
+        "name": "Reduvia",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/reduvia_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 19,
+        "name": "Blade Of Calling",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blade_of_calling_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 20,
+        "name": "Black Knife",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_dagger_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 21,
+        "name": "Main-Gauche",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/main-gauche_dagger_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png"
+      },
+      {
+        "id": 22,
+        "name": "Fire Knight's Shortsword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_knights_shortsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png"
+      },
+      {
+        "id": 23,
+        "name": "Short Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/short_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 24,
+        "name": "Broadsword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/broadsword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 25,
+        "name": "Weathered Straight Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/weathered_straight_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 26,
+        "name": "Lordsworn's Straight Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lordsworns_straight_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 27,
+        "name": "Noble's Slender Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/nobles_slender_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 28,
+        "name": "Cane Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/cane_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 29,
+        "name": "Lusat's Glinstone Staff",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lusat's_glintstone_staff_9_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 30,
+        "name": "Dragon Communion Seal",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragon_communion_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 31,
+        "name": "Vyke's War Spear",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vykes_war_spear_greatspear_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 32,
+        "name": "Maliketh's Black Blade",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malikeths_black_blade_colossal_swords_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 33,
+        "name": "Bloodhound's Fang",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodhounds_fang_curved_greatsword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 34,
+        "name": "Bloodhound's Claws",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodhound_claws_claw_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 35,
+        "name": "Inseparable Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/inseparable_sword_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 36,
+        "name": "Golden Order Seal",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/golden_order_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 37,
+        "name": "Golden Halberd",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/golden_halberd_halberd_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 38,
+        "name": "Erdtree GreatShield",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/erdtree_greatshield_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 39,
+        "name": "Carian Knight's Sword",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knights_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 40,
+        "name": "Carian Knight's Shield",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knights_shield_elden_ring_wiki_guide_200px.png"
+      }
+    ],
+    "eldenHelmets": [
+      {
+        "id": 0,
+        "name": "Empty",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lords-rune-tools-elden-ring-wiki-guide.png"
+      },
+      {
+        "id": 1,
+        "name": "Vagabond Knight Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vagabond_knight_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 2,
+        "name": "Astrologer Hood",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astrologer_hood_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 3,
+        "name": "Land Of Reeds Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/land_of_reeds_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 4,
+        "name": "Knight Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/knight_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 5,
+        "name": "Fingerprint Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fingerprint_helm.png"
+      },
+      {
+        "id": 6,
+        "name": "Maliketh's Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malikeths_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 7,
+        "name": "Iron Kasa",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/iron_kasa_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 8,
+        "name": "Lusat's Glinstone Crown",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lusats_glintstone_crown_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 9,
+        "name": "Black Knife Hood",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_hood_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 10,
+        "name": "Bloodhound Knight Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodhound_knight_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 11,
+        "name": "Twinned Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/twinned_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 12,
+        "name": "Tree Sentinel Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tree_sentinel_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 13,
+        "name": "Raging Wolf Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raging_wolf_helm_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 14,
+        "name": "Carian Knight Helm",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knight_helm_elden_ring_wiki_guide_200px.png"
+      }
+    ],
+    "eldenChest": [
+      {
+        "id": 0,
+        "name": "Empty",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lords-rune-tools-elden-ring-wiki-guide.png"
+      },
+      {
+        "id": 1,
+        "name": "Vagabond Knight Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vagabond_knight_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 2,
+        "name": "Astrologer Robe",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astrologer_robe_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 3,
+        "name": "Land Of Reeds Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/land_of_reeds_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 4,
+        "name": "Knight Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/knight_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 5,
+        "name": "Fingerprint Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fingerprint_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 6,
+        "name": "Maliketh's Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malikeths_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 7,
+        "name": "Ronin's Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ronins_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 8,
+        "name": "Lusat's Robe",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lusats_robe_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 9,
+        "name": "Black Knife Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 10,
+        "name": "Bloodhound Knight Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodhound_knight_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 11,
+        "name": "Twinned Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/twinned_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 12,
+        "name": "Tree Sentinel Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tree_sentinel_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 13,
+        "name": "Raging Wolf Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raging_wolf_armor_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 14,
+        "name": "Carian Knight Armor",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knight_armor_elden_ring_wiki_guide_200px.png"
+      }
+    ],
+    "eldenGauntlets": [
+      {
+        "id": 0,
+        "name": "Empty",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lords-rune-tools-elden-ring-wiki-guide.png"
+      },
+      {
+        "id": 1,
+        "name": "Vagabond Knight Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vagabond_knight_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 2,
+        "name": "Astrologer Gloves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astrologer_gloves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 3,
+        "name": "Land Of Reeds Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/land_of_reeds_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 4,
+        "name": "Knight Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/knight_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 5,
+        "name": "Fingerprint Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fingerprint_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 6,
+        "name": "Maliketh's Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malikeths_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 7,
+        "name": "Ronin's Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ronins_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 8,
+        "name": "Lusat's Manchettes",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lusats_manchettes_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 9,
+        "name": "Black Knife Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 10,
+        "name": "Bloodhound Knight Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodhound_knight_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 11,
+        "name": "Twinned Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/twinned_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 12,
+        "name": "Tree Sentinel Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tree_sentinel_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 13,
+        "name": "Raging Wolf Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raging_wolf_gauntlets_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 14,
+        "name": "Carian Knight Gauntlets",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knight_gauntlets_elden_ring_wiki_guide_200px.png"
+      }
+    ],
+    "eldenGreaves": [
+      {
+        "id": 0,
+        "name": "Empty",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lords-rune-tools-elden-ring-wiki-guide.png"
+      },
+      {
+        "id": 1,
+        "name": "Vagabond Knight Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vagabond_knight_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 2,
+        "name": "Astrologer Trousers",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astrologer_trousers_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 3,
+        "name": "Land Of Reeds Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/land_of_reeds_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 4,
+        "name": "Knight Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/knight_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 5,
+        "name": "Fingerprint Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fingerprint_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 6,
+        "name": "Maliketh's Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malikeths_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 7,
+        "name": "Ronin's Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ronins_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 8,
+        "name": "Old Sorcerer",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/old_sorcerers_legwraps_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 9,
+        "name": "Black Knife Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 10,
+        "name": "Bloodhound Knight Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodhound_knight_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 11,
+        "name": "Twinned Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/twinned_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 12,
+        "name": "Tree Sentinel Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tree_sentinel_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 13,
+        "name": "Raging Wolf Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/raging_wolf_greaves_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 14,
+        "name": "Carian Knight Greaves",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knight_greaves_elden_ring_wiki_guide_200px.png"
+      }
+    ],
+    "Talisman": [
+      {
+        "id": 0,
+        "name": "Empty",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lords-rune-tools-elden-ring-wiki-guide.png"
+      },
+      {
+        "id": 1,
+        "name": "Crimson Amber Medallion",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/crimson_amber_medallion_talisman_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 2,
+        "name": "Radagon's Soreseal",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radagons_%20soreseal_talisman_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 3,
+        "name": "Shard Of Alexander",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/shard_of_alexander_talisman_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 4,
+        "name": "Gold Scarab",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gold_scarab_talisman_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 5,
+        "name": "Concealing Veil",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/concealing_veil_talisman_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 6,
+        "name": "Stargazer Heirloom",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/stargazer_heirloom_talisman_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 7,
+        "name": "Great-Jar's Arsenal",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/great-jars_arsenal_talisman_elden_ring_wiki_guide_200px.png"
+      },
+      {
+        "id": 8,
+        "name": "Dragoncrest Greatshield Talisman",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragoncrest_greatshield_talisman_talisman_elden_ring_wiki_guide_200px.png"
+      }
+    ],
+    "defaultSlotImage": [
+      {
+        "id": 1,
+        "name": "Empty",
+        "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lords-rune-tools-elden-ring-wiki-guide.png"
+      }
+    ]
+  }
